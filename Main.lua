@@ -1,3 +1,12 @@
+-- VOID HUB
+-- Main.lua
+-- Open-source Roblox project
+
+local VoidHub = {}
+
+VoidHub.Name = "VOID HUB"
+VoidHub.Version = "1.0.0"
+
 VoidHub.Features = {
     "Fly",
     "Speed",
@@ -29,3 +38,9 @@ VoidHub.Features = {
     "Debug Mode"
 }
 
+function VoidHub.Start()
+    print("VOID HUB iniciado!")
+    print("Versão: " .. VoidHub.Version)
+end
+
+return VoidHub
